@@ -14,6 +14,7 @@
 
 The Automated Meal Planning System is a comprehensive solution designed to generate personalized meal plans for users based on their dietary restrictions. It integrates Google Forms, Google Sheets, Make (formerly Integromat), and a custom backend to create a seamless experience from user sign-up to weekly meal plan updates.
 ### Google Form Link: https://forms.gle/5D8jzjDmBpsQdgux7
+### Deployed Link: https://mealapplication-yxdq.onrender.com/
 
 ## System Overview
 
