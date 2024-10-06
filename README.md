@@ -7,10 +7,8 @@
 4. [Usage](#usage)
 5. [Components](#components)
 6. [Workflow](#workflow)
-7. [Maintenance](#maintenance)
-8. [Troubleshooting](#troubleshooting)
-9. [Contributing](#contributing)
-10. [License](#license)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ## Introduction
 
