@@ -33,15 +33,17 @@ The system consists of the following key components:
 
 ### Make (Integromat) Configuration
 1. Create two scenarios in Make:
+2. 
    a. New User Scenario: Triggered when a new row is added to the Google Sheet
+   
    b. Weekly Update Scenario: Scheduled to run every Sunday at 00:00 Pakistan Time
 
-2. Configure the New User Scenario:
+4. Configure the New User Scenario:
    - Watch the Google Sheet for new rows
    - Extract data from the new row
    - Send a webhook to your backend API with the user data
 
-3. Configure the Weekly Update Scenario:
+5. Configure the Weekly Update Scenario:
    - Schedule it to run weekly
    - Fetch all users from your backend (or Google Sheet)
    - Send a webhook to your backend API to trigger meal plan updates
@@ -101,6 +103,7 @@ The system consists of the following key components:
 ## Workflow
 
 1. User Sign-up:
+   
    a. User fills out Google Form
    
    b. Response is recorded in Google Sheet
@@ -112,6 +115,7 @@ The system consists of the following key components:
    e. User receives login credentials
 
 3. Weekly Update:
+   
    a. Make scenario triggers every Sunday at midnight (Pakistan Time)
    
    b. Backend generates new meal plans for all users
@@ -120,6 +124,7 @@ The system consists of the following key components:
    
 
 5. User Interaction:
+   
    a. User logs into frontend application
    
    b. Views current meal plan
