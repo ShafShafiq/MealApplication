@@ -102,18 +102,26 @@ The system consists of the following key components:
 
 1. User Sign-up:
    a. User fills out Google Form
+   
    b. Response is recorded in Google Sheet
+   
    c. Make scenario triggers and sends data to backend
+   
    d. Backend creates user, generates meal plan, and sends welcome email (Including Credentials)
+   
    e. User receives login credentials
 
-2. Weekly Update:
+3. Weekly Update:
    a. Make scenario triggers every Sunday at midnight (Pakistan Time)
+   
    b. Backend generates new meal plans for all users
+   
    c. Users receive email notifications about updated plans
+   
 
-3. User Interaction:
+5. User Interaction:
    a. User logs into frontend application
+   
    b. Views current meal plan
   
 
